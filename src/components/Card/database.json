@@ -1,0 +1,124 @@
+{
+  "dogs": [
+    {
+      "breed": "Golden Retriever",
+      "weight": "25-34 kg",
+      "environment": "Casa com quintal",
+      "image": "https://example.com/golden_retriever.jpg"
+    },
+    {
+      "breed": "Bulldog Inglês",
+      "weight": "23-25 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/english_bulldog.jpg"
+    },
+    {
+      "breed": "Beagle",
+      "weight": "9-11 kg",
+      "environment": "Casa com espaço para brincadeiras",
+      "image": "https://example.com/beagle.jpg"
+    },
+    {
+      "breed": "Dachshund",
+      "weight": "7-14 kg",
+      "environment": "Casa com espaço para explorar",
+      "image": "https://example.com/dachshund.jpg"
+    },
+    {
+      "breed": "Boxer",
+      "weight": "25-32 kg",
+      "environment": "Casa com espaço para correr",
+      "image": "https://example.com/boxer.jpg"
+    },
+    {
+      "breed": "Chihuahua",
+      "weight": "1-3 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/chihuahua.jpg"
+    },
+    {
+      "breed": "Rottweiler",
+      "weight": "35-60 kg",
+      "environment": "Casa com espaço amplo",
+      "image": "https://example.com/rottweiler.jpg"
+    },
+    {
+      "breed": "Schnauzer",
+      "weight": "5-20 kg",
+      "environment": "Casa com atenção à atividade mental",
+      "image": "https://example.com/schnauzer.jpg"
+    },
+    {
+      "breed": "Pug",
+      "weight": "6-9 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/pug.jpg"
+    },
+    {
+      "breed": "Husky Siberiano",
+      "weight": "20-27 kg",
+      "environment": "Casa com espaço para exercícios",
+      "image": "https://example.com/husky.jpg"
+    },
+    {
+      "breed": "Dobermann",
+      "weight": "34-45 kg",
+      "environment": "Casa com espaço para atividades físicas",
+      "image": "https://example.com/dobermann.jpg"
+    },
+    {
+      "breed": "Border Collie",
+      "weight": "12-20 kg",
+      "environment": "Casa com espaço para brincadeiras e treinamento",
+      "image": "https://example.com/border_collie.jpg"
+    },
+    {
+      "breed": "Cocker Spaniel",
+      "weight": "12-15 kg",
+      "environment": "Casa com espaço para brincadeiras",
+      "image": "https://example.com/cocker_spaniel.jpg"
+    },
+    {
+      "breed": "Shih Tzu",
+      "weight": "4-7.2 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/shih_tzu.jpg"
+    },
+    {
+      "breed": "Labradoodle",
+      "weight": "13-30 kg",
+      "environment": "Casa com espaço para atividades",
+      "image": "https://example.com/labradoodle.jpg"
+    },
+    {
+      "breed": "Basset Hound",
+      "weight": "20-29 kg",
+      "environment": "Casa com espaço para explorar",
+      "image": "https://example.com/basset_hound.jpg"
+    },
+    {
+      "breed": "Yorkshire Terrier",
+      "weight": "2-3.2 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/yorkshire_terrier.jpg"
+    },
+    {
+      "breed": "Bernese Mountain Dog",
+      "weight": "38-50 kg",
+      "environment": "Casa com espaço amplo",
+      "image": "https://example.com/bernese_mountain_dog.jpg"
+    },
+    {
+      "breed": "English Springer Spaniel",
+      "weight": "16-25 kg",
+      "environment": "Casa com espaço para atividades",
+      "image": "https://example.com/english_springer_spaniel.jpg"
+    },
+    {
+      "breed": "Maltês",
+      "weight": "1.8-3.6 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/maltese.jpg"
+    }
+  ]
+}

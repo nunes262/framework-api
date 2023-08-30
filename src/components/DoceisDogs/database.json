@@ -1,0 +1,76 @@
+{
+  "dogs-doceis": [
+    {
+      "breed": "Golden Retriever",
+      "weight": "25-34 kg",
+      "environment": "Casa com quintal",
+      "image": "https://example.com/golden_retriever.jpg"
+    },
+    {
+      "breed": "Labrador Retriever",
+      "weight": "25-36 kg",
+      "environment": "Casa com quintal",
+      "image": "https://example.com/labrador.jpg"
+    },
+    {
+      "breed": "Cavalier King Charles Spaniel",
+      "weight": "5.4-8.2 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/cavalier_king_charles.jpg"
+    },
+    {
+      "breed": "Beagle",
+      "weight": "9-11 kg",
+      "environment": "Casa com espaço para brincadeiras",
+      "image": "https://example.com/beagle.jpg"
+    },
+    {
+      "breed": "Bulldog Francês",
+      "weight": "8-14 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/french_bulldog.jpg"
+    },
+    {
+      "breed": "Pug",
+      "weight": "6-9 kg",
+      "environment": "Apartamento",
+      "image": "https://example.com/pug.jpg"
+    },
+    {
+      "breed": "Boxer",
+      "weight": "25-32 kg",
+      "environment": "Casa com espaço para correr",
+      "image": "https://example.com/boxer.jpg"
+    },
+    {
+      "breed": "Shetland Sheepdog",
+      "weight": "6-14 kg",
+      "environment": "Casa com espaço para atividades",
+      "image": "https://example.com/shetland_sheepdog.jpg"
+    },
+    {
+      "breed": "Bernese Mountain Dog",
+      "weight": "38-50 kg",
+      "environment": "Casa com espaço amplo",
+      "image": "https://example.com/bernese_mountain_dog.jpg"
+    },
+    {
+      "breed": "Irish Setter",
+      "weight": "25-32 kg",
+      "environment": "Casa com espaço para brincadeiras",
+      "image": "https://example.com/irish_setter.jpg"
+    },
+    {
+      "breed": "Cocker Spaniel",
+      "weight": "12-15 kg",
+      "environment": "Casa com espaço para brincadeiras",
+      "image": "https://example.com/cocker_spaniel.jpg"
+    },
+    {
+      "breed": "Collie",
+      "weight": "18-34 kg",
+      "environment": "Casa com espaço para atividades",
+      "image": "https://example.com/collie.jpg"
+    }
+  ]
+}
