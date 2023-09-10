@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import "./Card.css";
+import { useEffect, useState } from "react";
+import "./CartasMaisFracasStyle.css";
 
 function Card() {
   const [grupos, setGrupos] = useState([]);
@@ -7,7 +7,9 @@ function Card() {
   useEffect(() => {
     const buscarGrupos = async () => {
       try {
-        const response = await fetch("https://raw.githubusercontent.com/nunes262/database/master/database.json");
+        const response = await fetch(
+          "https://raw.githubusercontent.com/nunes262/database/master/databese_mais_fracas.json"
+        );
         const data = await response.json();
         console.log(data);
         setGrupos(data);

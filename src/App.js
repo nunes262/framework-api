@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import TournamentBracket from "./components/TournamentBracket";
 import Card from "./components/Card";
+import CartasMaisFortes from "./components/cartas_mais_fortes/CartasMaisFortes";
+import CartasMaisFracas from "./components/cartas_mais_fracas/CartasMaisFracas";
 
 function App() {
   const [activeTab, setActiveTab] = useState("Tab 1");
@@ -12,20 +13,16 @@ function App() {
 
   function renderTabContent() {
     switch (activeTab) {
-      // case 'Tab 1':
-      //   return <TournamentBracket fase='finais' />
-      // case 'Tab 2':
-      //   return <TournamentBracket fase='semifinais' />
-      // case 'Tab 3':
-      //   return <TournamentBracket fase='quartas' />
-      // case 'Tab 4':
-      //   return <TournamentBracket fase='oitavas' />
       case "Tab 1":
         return (
           <section className="cards">
             <Card />
           </section>
         );
+      case "Tab 2":
+        return <CartasMaisFortes />;
+      case "Tab 3":
+        return <CartasMaisFracas />;
     }
   }
 
@@ -39,19 +36,19 @@ function App() {
             className={activeTab === "Tab 1" ? "active" : ""}
             onClick={() => handleChangeTab("Tab 1")}
           >
-            Cachorros
+            Todas as cartas
           </button>
           <button
             className={activeTab === "Tab 2" ? "active" : ""}
             onClick={() => handleChangeTab("Tab 2")}
           >
-            Cachorros mais doceis
+            Cartas mais fortes
           </button>
           <button
             className={activeTab === "Tab 3" ? "active" : ""}
             onClick={() => handleChangeTab("Tab 3")}
           >
-            Cachorros mais violentos
+            Cartas mais fracas
           </button>
         </div>
 
