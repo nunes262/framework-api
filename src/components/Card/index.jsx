@@ -26,6 +26,7 @@ function Card() {
 
   return (
     <div className="dog-list">
+      <p>ta ai um filtro fessora ;)</p>
       <div className="filters">
         <button onClick={() => handleNaipeFiltro(null)}>Mostrar Todos</button>
         <button onClick={() => handleNaipeFiltro("Espadas")}>Espadas</button>
