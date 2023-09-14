@@ -3,6 +3,7 @@ import "./Card.css";
 
 function Card() {
   const [grupos, setGrupos] = useState([]);
+  const [naipeFiltrado, setNaipeFiltrado] = useState(null);
 
   useEffect(() => {
     const buscarGrupos = async () => {
@@ -19,21 +20,35 @@ function Card() {
     buscarGrupos();
   }, []);
 
+  const handleNaipeFiltro = (naipe) => {
+    setNaipeFiltrado(naipe);
+  };
+
   return (
     <div className="dog-list">
+      <div className="filters">
+        <button onClick={() => handleNaipeFiltro(null)}>Mostrar Todos</button>
+        <button onClick={() => handleNaipeFiltro("Espadas")}>Espadas</button>
+        <button onClick={() => handleNaipeFiltro("Copas")}>Copas</button>
+        <button onClick={() => handleNaipeFiltro("Ouros")}>Ouros</button>
+        <button onClick={() => handleNaipeFiltro("Paus")}>Paus</button>
+      </div>
+
       {grupos.cartas && grupos.cartas.length > 0 ? (
-        grupos.cartas.map((cards, index) => (
-          <div key={index} className="card">
-            <div className="title">
-              <h2>{cards.valor}</h2>
+        grupos.cartas
+          .filter((cards) => !naipeFiltrado || cards.naipe === naipeFiltrado)
+          .map((cards, index) => (
+            <div key={index} className="card">
+              <div className="title">
+                <h2>{cards.valor}</h2>
+              </div>
+              <ul>
+                <li>
+                  <strong>Naipe:</strong> {cards.naipe}
+                </li>
+              </ul>
             </div>
-            <ul>
-              <li>
-                <strong>Naipe:</strong> {cards.naipe}
-              </li>
-            </ul>
-          </div>
-        ))
+          ))
       ) : (
         <div>A carregar...</div>
       )}
